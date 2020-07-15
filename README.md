@@ -57,3 +57,7 @@ Iniciar o Git
     git commit -m "initial commit"
 
     git push origin master
+
+    git remote set-url origin 'urlgit'
+
+    git checkout -b 'nome branch'
