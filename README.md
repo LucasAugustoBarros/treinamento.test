@@ -48,4 +48,11 @@
         "@babel/runtime": "^7.10.3"
 9 - Rodar no Terminal
         Rodar 'npm i'
-        
+
+Iniciar o Git
+    git add --all :/
+    git pull
+    git push
+    git commit -m "initial commit"
+
+    git push origin master
