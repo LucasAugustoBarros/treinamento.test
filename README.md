@@ -50,6 +50,7 @@
         Rodar 'npm i'
 
 Iniciar o Git
+    git init
     git add --all :/
     git pull
     git push
