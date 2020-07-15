@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LucasAugustoBarros/treinamento.git"
+    "url": "git+https://github.com/LucasAugustoBarros/treinamento.test.git"
   },
   "keywords": [
     "WebdriverIO",
@@ -22,9 +22,9 @@
   "author": "Lucas Barros",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LucasAugustoBarros/treinamento/issues"
+    "url": "https://github.com/LucasAugustoBarros/treinamento.test/issues"
   },
-  "homepage": "https://github.com/LucasAugustoBarros/treinamento#readme",
+  "homepage": "https://github.com/LucasAugustoBarros/treinamento.test#readme",
   "devDependencies": {
     "@wdio/allure-reporter": "^6.1.23",
     "@wdio/appium-service": "^6.1.16",
