@@ -1,0 +1,170 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1594685618873' stop='1594685625192'>
+    <name>Pesquisar no Google: Pesquisar no Google</name>
+    <title>Pesquisar no Google: Pesquisar no Google</title>
+    <test-cases>
+        <test-case start='1594685618874' status='passed' stop='1594685618875'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.116'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1594685618876' status='passed' stop='1594685622005'>
+            <name>Given eu estou na tela de pesquisa do Google</name>
+            <title>Given eu estou na tela de pesquisa do Google</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.116'/>
+            </parameters>
+            <steps>
+                <step start='1594685618880' status='passed' stop='1594685622004'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7081b931-90b6-4da0-9303-a2c1194bbe27-attachment.json' type='application/json' size='41'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594685622005' status='passed' stop='1594685625134'>
+            <name>When eu digito os dados da pesquisa "Cucumber"</name>
+            <title>When eu digito os dados da pesquisa "Cucumber"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.116'/>
+            </parameters>
+            <steps>
+                <step start='1594685622006' status='passed' stop='1594685622023'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='5f8bc40e-c5a7-4487-9d35-7d8622f4f2ef-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='139bbb58-3bc7-4dac-9b44-df10c4ce0e78-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594685622030' status='passed' stop='1594685622044'>
+                    <name>GET /session/:sessionId/element/0.0030982675471948884-1/displayed</name>
+                    <title>GET /session/:sessionId/element/0.0030982675471948884-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='1896932c-9f12-45dc-9c66-dc31a77d99c6-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594685622044' status='passed' stop='1594685622053'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6a3afb46-0f62-4fe7-9d2f-1b162529331d-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='e38c6302-344c-44c5-8326-1a5753e983b3-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594685622055' status='passed' stop='1594685622077'>
+                    <name>POST /session/:sessionId/element/0.0030982675471948884-1/clear</name>
+                    <title>POST /session/:sessionId/element/0.0030982675471948884-1/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1594685622079' status='passed' stop='1594685622901'>
+                    <name>POST /session/:sessionId/element/0.0030982675471948884-1/value</name>
+                    <title>POST /session/:sessionId/element/0.0030982675471948884-1/value</title>
+                    <attachments>
+                        <attachment title='Request' source='9004f221-707f-4f34-9b36-14253a057129-attachment.json' type='application/json' size='91'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594685622901' status='passed' stop='1594685625134'>
+                    <name>POST /session/:sessionId/keys</name>
+                    <title>POST /session/:sessionId/keys</title>
+                    <attachments>
+                        <attachment title='Request' source='d689d247-59a3-4f5f-8d34-44ca6ea673fb-attachment.json' type='application/json' size='28'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594685625135' status='passed' stop='1594685625190'>
+            <name>Then eu visualizo o resultado da pesquisa "Cucumber: BDD Testing &amp; Collaboration Tools for Teams"</name>
+            <title>Then eu visualizo o resultado da pesquisa "Cucumber: BDD Testing &amp; Collaboration Tools for Teams"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.116'/>
+            </parameters>
+            <steps>
+                <step start='1594685625135' status='passed' stop='1594685625150'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1324463a-de4b-4e9e-b2cc-d77714defb1a-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='bfcfaa1a-30ea-4315-aae7-b0f065a10a0d-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594685625152' status='passed' stop='1594685625165'>
+                    <name>GET /session/:sessionId/element/0.8372125061460567-1/displayed</name>
+                    <title>GET /session/:sessionId/element/0.8372125061460567-1/displayed</title>
+                    <attachments>
+                        <attachment title='Response' source='f9f259ca-440a-4f0c-866a-490036e164be-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594685625165' status='passed' stop='1594685625174'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='6af6cc3a-56de-41ba-a680-005040ca8c39-attachment.json' type='application/json' size='91'/>
+                        <attachment title='Response' source='8fa2fa54-e092-4659-a921-69882213c4ce-attachment.json' type='application/json' size='39'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1594685625176' status='passed' stop='1594685625190'>
+                    <name>GET /session/:sessionId/element/0.8372125061460567-1/text</name>
+                    <title>GET /session/:sessionId/element/0.8372125061460567-1/text</title>
+                    <attachments>
+                        <attachment title='Response' source='a130f002-f86c-4196-9405-21727cd73e38-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1594685625191' status='passed' stop='1594685625191'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-83.0.4103.116'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
